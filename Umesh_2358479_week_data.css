@@ -1,0 +1,127 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the entire page */
+body {
+    background-color: black;
+}
+
+/* Header styles */
+.background-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main container styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+/* Box styles */
+/* Box styles */
+.boxes {
+    width: 350px; /* Increase the width */
+    margin: 30px; /* Increase the margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; /* Increase the padding for content spacing */
+    background-image: linear-gradient(#45CFDD, #9681EB);
+    background-color: black;
+    color: black;
+}
+
+
+/* Day header styles */
+.day {
+    text-align: center;
+}
+
+.city {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.date1 {
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* Weather icon styles */
+.weather-icon1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+}
+
+/* Main data styles */
+.main-data {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.temp1 {
+    font-size: 1.5rem;
+}
+
+.desc1 {
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* Data icons and values styles */
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.icondata1,
+.icondata2,
+.icondata3 {
+    display: flex;
+    align-items: center;
+}
+
+.icondata1 i,
+.icondata2 i,
+.icondata3 i {
+    margin-right: 5px;
+    color: black;
+}
+
+.pressure1,
+.humidity1,
+.wind1 {
+    font-size: 0.8rem;
+    color: black;
+}
+
+/* Back button styles */
+.button {
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn a:hover {
+    background-image: linear-gradient(  #45CFDD,#9681EB);
+}
